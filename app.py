@@ -163,7 +163,7 @@ if choice == 'Login':
                 # MTD Analysis
                 st.title(f"Month To Date {page}")
 
-                mtd = 'data\mtd.xlsx'
+                mtd = 'data/mtd.xlsx'
                 df_mtd = pd.read_excel(mtd, sheet_name='rev')
                 df_bud = pd.read_excel(mtd, sheet_name='bud')
                 ps_bud = pd.pivot_table(
