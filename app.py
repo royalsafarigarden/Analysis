@@ -84,10 +84,10 @@ if choice == 'Login':
             orientation="horizontal",
             styles={
                 "container": {"padding": "0!important", "background-color": "#fafafa"},
-                "icon": {"color": "orange", "font-size": "18px"},
+                "icon": {"color": "orange", "font-size": "16px"},
                 "nav-link": {
                     "font-family": "monospace",
-                    "font-size": "18px",
+                    "font-size": "16px",
                     "text-align": "left",
                     "margin": "0px",
                     "--hover-color": "#eee",
@@ -105,9 +105,9 @@ if choice == 'Login':
             # Description
             st.markdown("<h2 style='text-align: center; font-family: serif;'>WELCOME</h2>",
                         unsafe_allow_html=True)
-            st.markdown("<p style='text-align: center; font-family: serif; font-size: 1.25rem;'>Escape from the city to the cool mountain air and lush landscape of Puncak highland. Located in Cisarua with and area of 14.000 sqm. Royal Safari Garden Resort and Convention offer a variety of recreation and educational activities at water park, rabbit garden, hydroponic, mini golf, and bird park.</p>",
+            st.markdown("<p style='text-align: center; font-family: serif; font-size: 1.2rem;'>Escape from the city to the cool mountain air and lush landscape of Puncak highland. Located in Cisarua with and area of 14.000 sqm. Royal Safari Garden Resort and Convention offer a variety of recreation and educational activities at water park, rabbit garden, hydroponic, mini golf, and bird park.</p>",
                         unsafe_allow_html=True)
-            st.markdown("<p style='margin-bottom: 20px; text-align: center; font-family: serif; font-size: 1.25rem;'>Preserving original design of heritage and thematic architecture and interior, the rooms at this property are warmly lit and family friendly. Royal safari garden the savanna restaurant serves Indonesian dish while sky garden restaurant serves Western food.</p>",
+            st.markdown("<p style='margin-bottom: 20px; text-align: center; font-family: serif; font-size: 1.2rem;'>Preserving original design of heritage and thematic architecture and interior, the rooms at this property are warmly lit and family friendly. Royal safari garden the savanna restaurant serves Indonesian dish while sky garden restaurant serves Western food.</p>",
                         unsafe_allow_html=True)
 
             # Maps
