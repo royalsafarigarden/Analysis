@@ -130,8 +130,6 @@ if choice == 'Login':
             page = st.radio(
                 'Choose :', ['Revenue', 'Market Segment', 'OTA Production'])
 
-            placeholder = st.empty()
-
             if page == 'OTA Production':
                 st.title('OTA Production In 2022')
 
