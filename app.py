@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 from PIL import Image
 
 st.set_page_config(
-    page_title="Analysis App",
+    page_title="Analytics App",
     page_icon="🐘"
 )
 
