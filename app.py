@@ -84,10 +84,10 @@ if choice == 'Login':
             orientation="horizontal",
             styles={
                 "container": {"padding": "0!important", "background-color": "#fafafa"},
-                "icon": {"color": "orange", "font-size": "20px"},
+                "icon": {"color": "orange", "font-size": "18px"},
                 "nav-link": {
                     "font-family": "monospace",
-                    "font-size": "20px",
+                    "font-size": "18px",
                     "text-align": "left",
                     "margin": "0px",
                     "--hover-color": "#eee",
